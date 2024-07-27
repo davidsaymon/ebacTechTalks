@@ -12,6 +12,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles/main.scss"> <!--Folha de estilo-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> <!--Animaçoes AOS Animete-->
 </head>
 <body>
     <header class="hero">
@@ -36,9 +37,59 @@
                 <a href="#" class="button button--primary">
                     Garanta sua vaga
                 </a>
-            </div> <!--infors-bar-->
+            </div> <!--infos-bar-->
         </div> <!--container-->
     </header> <!--Hero-->
+
+    <section class="event event--frontend">
+        <div class="container" data-aos="fade-right">
+            <div class="event__details">
+                <h2 class="event__details__title">Front-end</h2>
+                <p class="event__details__descriptions">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta rerum fugit corrupti dolores pariatur dolor eum esse, praesentium natus eius perspiciatis hic autem. Dolores porro facere odit labore, alias magni!
+                </p>
+            </div> <!--event__details-->
+            <img class="event__image" src="./images/frontend.png" alt="Front-end">
+        </div> <!--Container-->
+    </section> <!--event--frontend-->
+
+    <section class="event event--ux-ui event--image-left">
+        <div class="container" data-aos="fade-left">
+            <div class="event__details">
+                <h2 class="event__details__title">UX-UI</h2>
+                <p class="event__details__descriptions">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta rerum fugit corrupti dolores pariatur dolor eum esse, praesentium natus eius perspiciatis hic autem. Dolores porro facere odit labore, alias magni!
+                </p>
+            </div> <!--event__details-->
+            <img class="event__image" src="./images/ui-ux.png" alt="UX-UI">
+        </div> <!--Container-->
+    </section> <!--event--ui-ux-->
+
+    <section class="event event--data-science">
+        <div class="container" data-aos="fade-right">
+            <div class="event__details">
+                <h2 class="event__details__title">Data Science</h2>
+                <p class="event__details__descriptions">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta rerum fugit corrupti dolores pariatur dolor eum esse, praesentium natus eius perspiciatis hic autem. Dolores porro facere odit labore, alias magni!
+                </p>
+            </div> <!--event__details-->
+            <img class="event__image" src="./images/data.png" alt="Data Science">
+        </div> <!--Container-->
+    </section> <!--event--data-science-->
+
+    <section class="event event--backend event--image-left">
+        <div class="container" data-aos="fade-left">
+            <div class="event__details">
+                <h2 class="event__details__title">Back-End</h2>
+                <p class="event__details__descriptions">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta rerum fugit corrupti dolores pariatur dolor eum esse, praesentium natus eius perspiciatis hic autem. Dolores porro facere odit labore, alias magni!
+                </p>
+            </div> <!--event__details-->
+            <img class="event__image" src="./images/backend.png" alt="backend">
+        </div> <!--Container-->
+    </section> <!--event-->
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script> <!--AOS Animete-->
     <script src="scripts/main.js"></script>
 </body>
 </html>
