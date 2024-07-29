@@ -18,7 +18,7 @@ Esta é uma solução para uma landing page de um evento ficticio com um contado
 
 ### Captura de Tela
 
-![Capitura de tela] (./images/screenshot.png)
+![Captura de Tela](./src/images/screenshot.png)
 
 ### Links
 
